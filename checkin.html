@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>疫苗登记</title>
+</head>
+<body>
+ 
+<form action="data.php" method="post">
+
+名字: <input type="text" name="name"> <br>
+电话: <input type="text" name="phone"> <br>
+预约日期: <input type="text" name="register_date"> <br/>
+
+
+疫苗种类:
+<label><input type="checkbox" name="vaccine[]" value="复兴" />复兴 </label>
+<label><input type="checkbox" name="vaccine[]" value="科兴" />科兴 </label> 
+<label><input type="checkbox" name="vaccine[]" value="智飞" />智飞 </label> <br>
+
+
+接种类型：
+<label><input type="radio" name="vaccine_number" value="第一针" />第一针 </label>
+<label><input type="radio" name="vaccine_number" value="第二针" />第二针 </label> <br>
+
+
+<input type="submit" value="提交">
+</form>
+ 
+</body>
+</html>
