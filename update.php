@@ -24,5 +24,5 @@ if($res !== false){
 	echo 'false';
 }
 
-mysqli_close($con);
+mysqli_close($con); 
 ?>
